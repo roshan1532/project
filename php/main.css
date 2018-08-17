@@ -1,0 +1,360 @@
+/*Navigation Bar*/
+
+.topnav
+{
+	margin:0px -15px;
+	background-color: #111;
+	background-size:100%;
+	padding:8px 10px;
+}
+
+.topnav a
+{
+    color: white;
+	font-family:Arial, Helvetica, sans-serif;
+	display:block;
+    text-align: center;
+    padding: 25px 0px 15px 0px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav h3
+{
+    color: white;
+	font-family:Comic Sans MS, Arial, Helvetica, sans-serif;
+	display:block;
+    text-align: left;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.topnav a:hover
+{
+	color:grey;
+}
+
+/*Home Page*/
+.main1
+{
+	color : #000;
+	font-family:Comic Sans MS, Arial, Helvetica, sans-serif;
+	padding : 160px 0px 240px 0px;
+	text-align : center;
+	text-decoration: none;
+	background : url("Images/back18.jpg");
+	background-attachment:fixed;
+	background-size : 100%;
+}
+.main2
+{
+	color : #000;
+	font-family:Comic Sans MS, Arial, Helvetica, sans-serif;
+	text-align : center;
+	text-decoration: none;
+	background : url("Images/back27.jpg");
+	background-attachment:fixed;
+	background-size : 100%;
+}
+.well1
+{
+	border:2px solid black;
+	margin:20px 50px;
+	padding:50px;
+}
+
+.support a
+{
+	font-size:120px;
+	text-decoration:none;
+}
+
+.support a:hover{
+	padding-left:150px;
+}
+
+
+
+
+
+
+/*Login Page*/
+
+.account
+{
+	background:url("Images/back6.jpg");
+	background-size: 100%;
+	background-attachment:fixed;
+}
+
+.account h3
+{
+	text-align:left;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+.account a
+{
+	color: #FFF;
+	text-decoration:none;
+}
+
+.account a:hover
+{
+	color:#000;
+}
+
+
+.admin
+{
+	background-color: grey;
+	margin: 70px 0px;
+	padding:25px 25px 60px 25px;
+	font-family: courier, Arial, Helvetica, sans-serif;
+}
+
+.existing
+{
+	background-color:grey;
+	margin: 70px 0px;
+	padding:25px 25px 60px 25px;
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/*Registration Page*/
+
+	
+.new-user
+{
+	border: 2px solid black;
+	border-radius:10px;	
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+	margin: 25px 5px;
+	padding:25px 50px;
+}
+
+.new-user h1
+{
+	text-align:center;
+	margin-bottom: 50px;
+	text-decoration: underline;
+}
+
+label > input [type=radio]
+{
+	visibility:hidden;
+}
+
+
+/*User Profile*/
+
+.user-main
+{
+	background: url("Images/017.png");
+	background-size:100%;
+	background-attachment:fixed;	
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+}
+.user-main h1
+{
+	color:#000;
+	margin-bottom:50px;
+	text-align:center;
+	text-decoration: none;
+}
+
+.user
+{
+	border: 2px solid black;
+	border-radius:10px;
+	margin: 60px 5px;
+	padding:25px 50px 50px 50px;
+}
+
+.user-profile
+{
+	background: url("Images/000.jpg");
+	background-size:100%;
+	background-attachment:fixed;	
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+}
+
+.book-main
+{
+	background: url("Images/back8.jpg");
+	background-size:100%;
+	background-attachment:fixed;	
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+}
+.book-main h1
+{
+	color:#000;
+	margin-bottom:50px;
+	text-align:center;
+	text-decoration: none;
+}
+
+.ticket-main
+{
+	background: url("Images/015.jpg");
+	background-size:100%;
+	background-attachment:fixed;	
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+}
+.ticket-main h1
+{
+	color:#000;
+	margin-bottom:50px;
+	text-align:center;
+	text-decoration: none;
+}
+
+.ticket-body
+{
+	border: 2px solid black;
+	border-radius:10px;
+	margin: 60px 5px;
+	padding:25px 50px 50px 50px;
+}
+	
+
+
+.enquiry
+{
+	border: 2px solid black;
+	border-radius:10px;	
+	margin: 150px 5px;
+	padding:25px 50px 50px 50px;
+	
+}
+
+/*Admin*/
+
+.admin-main
+{
+	background: #222;
+	background-size:100%;
+	background-attachment:fixed;	
+	font-family: courier, Arial, Helvetica, sans-serif;
+	color:#FFF;
+}
+.admin-main h1
+{
+	font-size:30px;
+	margin: 25px 0px;
+}
+
+
+.success
+{
+	text-align:center; 
+	padding : 160px 0px;
+}
+
+
+
+/*Developers*/
+
+.dev
+{
+	text-align:center;
+	color:#111;
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+	background-attachment:fixed;
+}
+	
+.left-well
+{
+	background:#4286f4;
+	margin:0px -15px;
+	padding:120px 0px;
+	background-size:100%;
+	
+}
+.middle-well
+{
+	background:#41454c;
+	margin:0px -15px;
+	padding:120px 0px;
+	background-size:100%;
+}
+.right-well
+{
+	background:#f44a41;
+	margin:0px -15px;
+	padding:120px 0px;
+	background-size:100%;
+}
+
+.left-well a:hover
+{
+	padding:60px 0px 180px;
+}
+
+.dev img
+{
+	border-radius:10%;
+	height: 300px;
+	width: 300px;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.dev img:hover
+{
+	border-radius:100%;
+	width: 375px;
+	height: 375px;
+}
+
+
+
+.sociallink a:hover 
+{
+	padding-top : 10px;
+	padding-bottom:20px;
+}
+
+.pawan
+{
+	background:#41454c;
+	padding:100px 0px;
+	background-size:100%;
+	text-align:center;
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+}
+
+.pawan-body{
+	border:2px solid black;
+	border-radius:10px;
+	padding:50px,0px;
+	text-align:center;
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+}
+	
+
+.aquib
+{
+	background:#4286f4;
+	padding:100px 0px;
+	background-size:100%;
+	text-align:center;
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+}
+.roshan
+{
+	background:#f44a41;
+	padding:100px 0px;
+	background-size:100%;
+	text-align:center;
+	font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+}
+
